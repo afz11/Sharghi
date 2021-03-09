@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700;900&display=swap");
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background-color: #000;
+   color: #fff;
+   font-family: "Mulish", sans-serif;
+}
+
+h1 {
+   font-size: 4rem;
+   font-weight: 700;
+}
+
+a {
+   text-decoration: none;
+   color: #fff;
+   cursor: pointer;
+}
+
+ul {
+   list-style: none;
+}
+
+.header {
+   width: 100%;
+   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(10, 4, 2, 0.85)),
+      url("./images/background10.jpg");
+   background-repeat: no-repeat;
+   background-position: center right;
+   max-width: 100vw;
+   height: 100vh;
+}
+
+.container {
+   margin: 0 auto;
+   padding: 0.2rem 10% 5% 10%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.content-container {
+   margin: 0 auto;
+   padding: 0.2rem 10% 5% 10%;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+}
+
+.nav {
+   /* width: 30%; */
+   /* background-color: rgb(126, 24, 24); */
+}
+
+.nav ul {
+   display: flex;
+}
+
+.nav ul li {
+   margin-right: 1.5rem;
+   text-transform: uppercase;
+}
+
+.social-links {
+}
+
+.logo img {
+   width: 90px;
+}
+
+.social-links ul {
+   display: flex;
+}
+
+.social-links ul li {
+   margin-left: 1rem;
+}
+
+.social-links img {
+   width: 20px;
+}
+
+.section {
+}
+
+.content {
+   width: 50%;
+}
+
+.album-name {
+   font-size: 7rem;
+   color: #e8a92d;
+   font-weight: 900;
+}
+
+.album-part {
+   font-size: 2.5rem;
+}
+
+.content p {
+   margin-bottom: 2.5rem;
+}
+
+.visual-content {
+}
+.coverart-div {
+}
+
+.coverart-div figure img {
+   width: 630px;
+   max-width: 100%;
+   box-shadow: rgba(5, 5, 4, 0.5) 0px 1px 0px,
+      rgba(128, 128, 132, 50%) 0px 0px 10px;
+}
