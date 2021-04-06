@@ -10,6 +10,7 @@ body {
    background-color: #000;
    color: rgb(183 204 212);
    font-family: "Mulish", sans-serif;
+   background-image: url("./images/bg.jpg");
 }
 
 h1 {
@@ -30,9 +31,9 @@ ul {
 .header {
    width: 100%;
    background-image: linear-gradient(
-         rgba(19, 19, 19, 0.93),
-         rgba(19, 19, 19, 0.3),
-         rgba(19, 19, 19, 0.73)
+         rgba(19, 19, 19, 0.5),
+         rgba(19, 19, 19, 0.7),
+         rgba(19, 19, 19, 0.9)
       ),
       url("./images/bg.jpg");
 
@@ -44,19 +45,23 @@ ul {
 }
 
 .container {
-   margin: 0 auto;
-   padding: 0.2rem 12% 5% 12%;
+   margin: auto;
+   margin-bottom: 3rem;
+   width: 100%;
+   max-width: 1400px;
    display: flex;
    justify-content: space-between;
    align-items: center;
+   padding: 1rem;
 }
 
 .content-container {
    margin: 0 auto;
-   padding: 0.2rem 12% 5% 12%;
+   max-width: 1400px;
    display: flex;
    justify-content: space-between;
    align-items: flex-start;
+   padding: 1rem;
 }
 
 .content {
@@ -78,6 +83,10 @@ ul {
    padding: 10px;
    border-bottom: none;
    transition: border 0.7 ease;
+}
+
+.nav li:first-child {
+   padding-left: 0;
 }
 
 .nav ul li:hover {
@@ -122,6 +131,7 @@ ul {
 
 .album-part {
    font-size: 2.5rem;
+   margin-bottom: 3rem;
 }
 
 .content p {
@@ -133,9 +143,77 @@ ul {
 .coverart-div {
 }
 
-.coverart-div figure img {
-   width: 650px;
+.coverart-div img {
+   width: 500px;
    max-width: 100%;
-   box-shadow: rgba(5, 5, 4, 0.5) 0px 1px 0px,
-      rgba(128, 128, 132, 50%) 0px 0px 10px;
+   box-shadow: -3px 9px 20px 2px rgba(9, 23, 68, 0.116);
+}
+
+.listen-button {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   gap: 1rem 0;
+   margin-bottom: 3rem;
+}
+
+.listen {
+   display: flex;
+   justify-content: flex-start;
+}
+
+.listen img {
+   width: 200px;
+   /* background-color: #fff; */
+}
+
+@media (max-width: 668px) {
+   .container {
+      flex-direction: column;
+   }
+   .nav {
+      display: none;
+   }
+
+   .social-links li:first-child {
+      margin: 0;
+   }
+
+   .content-container {
+      flex-direction: column;
+      padding: 0 3%;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .content {
+      max-width: 100%;
+      width: 500px;
+   }
+
+   .album-name {
+      font-size: 4rem;
+   }
+
+   .album-part {
+      font-size: 1.5rem;
+      padding-bottom: 3rem;
+   }
+
+   .content p {
+      margin-top: 3rem;
+   }
+
+   .coverart-div img {
+   }
+
+   .listen-button {
+      justify-content: center;
+      align-items: center;
+   }
+
+   .listen {
+      display: flex;
+      justify-content: center;
+   }
 }
