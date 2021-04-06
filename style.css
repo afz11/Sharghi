@@ -208,7 +208,7 @@ ul {
    }
 
    .listen-button {
-      gap: 0 0.05fr;
+      /* gap: 0 0.05fr; */
    }
 
    .listen img {
