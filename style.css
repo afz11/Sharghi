@@ -151,8 +151,8 @@ ul {
 
 .listen-button {
    display: grid;
-   grid-template-columns: 1fr 1fr;
-   grid-template-rows: 1fr 1fr;
+   grid-template-columns: 0.9fr 0.9fr;
+   grid-template-rows: 0.9fr 0.9fr;
    gap: 1rem 0;
    margin-bottom: 3rem;
 }
@@ -208,8 +208,12 @@ ul {
    }
 
    .listen-button {
-      justify-content: center;
-      align-items: center;
+      gap: 0 0.05fr;
+   }
+
+   .listen img {
+      width: 150px;
+      /* background-color: #fff; */
    }
 
    .listen {
