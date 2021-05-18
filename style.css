@@ -7,7 +7,7 @@
 }
 
 body {
-  background: #162f21;
+  background: #000000;
   color: #fff;
   font-family: 'Mulish', sans-serif;
   height: 100vh;
@@ -202,9 +202,9 @@ ul {
   color: #000000;
   font-size: 16px;
   border-radius: 5px;
-  border: 1px #3866a3 solid;
+  border: 1px #028d6b solid;
   background: linear-gradient(0deg, #ffffff 0%, #ffffff 0%);
-  text-shadow: 0px 0px 0px #528ecc;
+  text-shadow: 0px 0px 0px #b4b4b4;
   box-shadow: 1px 1px 2px 0px #bbdaf7;
   cursor: pointer;
   display: inline-flex;
