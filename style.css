@@ -224,7 +224,7 @@ ul {
 
 @media (max-width: 668px) {
   body {
-    background-color: #162f21;
+    background-color: #000000;
   }
   .container {
     flex-direction: column;
