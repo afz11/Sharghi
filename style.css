@@ -7,8 +7,8 @@
 }
 
 body {
-  background: #000000;
-  color: #fff;
+  background: #e3e3e3;
+  color: #000;
   font-family: 'Mulish', sans-serif;
   height: 100vh;
   /* overflow: hidden; */
@@ -167,9 +167,8 @@ ul {
 }
 
 .coverart-div img {
-  width: 400px;
+  width: 480px;
   max-width: 100%;
-  box-shadow: -3px 9px 20px 2px rgba(9, 23, 68, 0.116);
 }
 
 .listen-button {
@@ -193,8 +192,9 @@ ul {
 .buyBtns {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start;
+  margin-bottom: 3rem;
 }
 
 .css-button {
@@ -202,16 +202,18 @@ ul {
   color: #000000;
   font-size: 16px;
   border-radius: 5px;
-  border: 1px #028d6b solid;
+  border: 1px #6d6262 solid;
   background: linear-gradient(0deg, #ffffff 0%, #ffffff 0%);
   text-shadow: 0px 0px 0px #b4b4b4;
   box-shadow: 1px 1px 2px 0px #bbdaf7;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
+  margin-bottom: 1rem;
 }
 .css-button:hover {
-  background: linear-gradient(0deg, #4abd40 0%, #ece6e6 0%);
+  background: linear-gradient(0deg, #4abd40 0%, #161515 0%);
+  color: #ffffff;
 }
 .css-button-icon {
   padding: 24px 20px;
@@ -222,9 +224,14 @@ ul {
   padding: 20px 20px;
 }
 
+iframe {
+  width: 480px;
+  height: 300px;
+}
+
 @media (max-width: 668px) {
   body {
-    background: #000000;
+    background: #e3e3e3;
   }
   .container {
     flex-direction: column;
@@ -283,5 +290,10 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  iframe {
+    width: 90%;
+    height: 250px;
+    margin-bottom: 3rem;
   }
 }
