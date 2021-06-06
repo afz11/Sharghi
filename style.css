@@ -194,7 +194,9 @@ ul {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
+  flex-wrap: wrap;
   margin-bottom: 3rem;
+  max-width: 480px;
 }
 
 .css-button {
